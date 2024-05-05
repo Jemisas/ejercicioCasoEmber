@@ -9,15 +9,13 @@ import {ProductEntity} from "../model/product.entity";
   providedIn: 'root'
 })
 export class StoreService {
-  apiUrl = environment.baseUrl;
-
   constructor(private http: HttpClient) { }
 
   getBundles(): Observable<BundleEntity[]> {
-    return this.http.get<BundleEntity[]>(`${this.apiUrl}/bundles`);
+    return this.http.get<BundleEntity[]>(`${environment.baseUrl}/bundles`);
   }
 
   getProductsByBundleId(bundleId: number): Observable<ProductEntity[]> {
-    return this.http.get<ProductEntity[]>(`${this.apiUrl}/bundles/${bundleId}/products`);
+    return this.http.get<ProductEntity[]>(`${environment.baseUrl}/bundles/${bundleId}/products`);
   }
 }
