@@ -1,0 +1,84 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Product 1",
+      "description": "Description of Product 1",
+      "photoUrl": "https://example.com/photo1.jpg",
+      "price": 19.99,
+      "bundleId": 1,
+      "rating": 4.5
+    },
+    {
+      "id": 2,
+      "title": "Product 2",
+      "description": "Description of Product 2",
+      "photoUrl": "https://example.com/photo2.jpg",
+      "price": 29.99,
+      "bundleId": 1,
+      "rating": 4.2
+    },
+    {
+      "id": 3,
+      "title": "Product 3",
+      "description": "Description of Product 3",
+      "photoUrl": "https://example.com/photo3.jpg",
+      "price": 24.99,
+      "bundleId": 1,
+      "rating": 4.8
+    },
+    {
+      "id": 4,
+      "title": "Product 4",
+      "description": "Description of Product 4",
+      "photoUrl": "https://example.com/photo4.jpg",
+      "price": 39.99,
+      "bundleId": 2,
+      "rating": 4.6
+    },
+    {
+      "id": 5,
+      "title": "Product 5",
+      "description": "Description of Product 5",
+      "photoUrl": "https://example.com/photo5.jpg",
+      "price": 59.99,
+      "bundleId": 2,
+      "rating": 4.0
+    },
+    {
+      "id": 6,
+      "title": "Product 6",
+      "description": "Description of Product 6",
+      "photoUrl": "https://example.com/photo5.jpg",
+      "price": 59.99,
+      "bundleId": 3,
+      "rating": 4.0
+    }
+  ],
+  "bundles": [
+    {
+      "id": 1,
+      "title": "Bundle 1",
+      "description": "Description of Bundle 1",
+      "photoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKRbOzMWM1Ycs5d5tIz2StELazXot7lBDYzYNEJRZaYQ&s",
+      "price": 49.99,
+      "rating": 4.8
+    },
+    {
+      "id": 2,
+      "title": "Bundle 2",
+      "description": "Description of Bundle 2",
+      "photoUrl": "https://3pls.cl/wp-content/uploads/2021/12/Armado-de-kits-pack-y-cajas-02-300x300.png",
+      "price": 79.99,
+      "rating": 4.7
+    },
+    {
+      "id": 3,
+      "title": "Bundle 3",
+      "description": "Description of Bundle 3",
+      "photoUrl": "https://lachinata.es/wp-content/uploads/productos/pack-regalo-pequeno-hombre-la-chinata-600x621.jpg",
+      "price": 15.99,
+      "rating": 4.9
+    }
+  ]
+}
